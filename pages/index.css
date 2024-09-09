@@ -29,3 +29,15 @@ body {
   padding: 0px 0px 0.8px 0px;
   margin-top: 34px;
 }
+
+.lead {
+  max-width: 984px;
+}
+
+.lead__title {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 90px auto 32px;
+}
