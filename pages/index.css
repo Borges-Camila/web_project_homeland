@@ -40,7 +40,8 @@ body {
   font-weight: 900;
   line-height: 100px;
   text-align: center;
-  margin-top: 90px auto 32px;
+  margin: 90px auto 0;
+  max-width: 720px;
 }
 
 .lead__subtitle {
@@ -48,7 +49,8 @@ body {
   font-weight: 400;
   line-height: 36px;
   text-align: center;
-  margin-bottom: 64px;
+  margin: 32px auto 0;
+  max-width: 720px;
 }
 
 .lead__image {
@@ -112,4 +114,61 @@ body {
   line-height: 16px;
   text-align: right;
   max-width: 166px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo__image {
+    margin-top: 30px;
+  }
+
+  .lead__title {
+    font-size: 75px;
+    line-height: 79px;
+    text-align: center;
+    margin-bottom: 25px;
+    max-width: 530px;
+  }
+
+  .lead__subtitle {
+    margin-bottom: 30px;
+    max-width: 720px;
+  }
+
+  .lead__image {
+    max-width: 768px;
+  }
+
+  .intro {
+    margin: 90px auto 88px;
+    max-width: 720px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+    max-width: 707px;
+  }
+
+  .intro__quote {
+    max-width: 720px;
+    margin-top: 50px;
+  }
+
+  .intro__quote-author {
+    max-width: 720px;
+    margin: 0;
+  }
+
+  .intro__text {
+    max-width: 720px;
+  }
+
+  .footer {
+    margin: 88px auto 24px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
