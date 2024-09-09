@@ -57,3 +57,59 @@ body {
   align-items: center;
   margin-top: 64px;
 }
+
+.intro {
+  max-width: 830px;
+  margin-top: 92px;
+  margin-left: 148px;
+}
+
+.intro__title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+}
+
+.intro__quote {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  max-width: 738px;
+  margin-top: 40px;
+}
+
+.intro__quote-author {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  max-width: 732px;
+  margin-top: 10px;
+}
+
+.intro__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  max-width: 722px;
+  margin-top: 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 92px auto 24px;
+}
+
+.footer__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: right;
+  max-width: 166px;
+}
