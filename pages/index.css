@@ -116,6 +116,45 @@ body {
   max-width: 166px;
 }
 
+@media screen and (max-width: 1024px) {
+  .logo__image {
+    margin-top: 32px;
+  }
+
+  .lead__title {
+    font-size: 85px;
+    line-height: 89px;
+    margin-bottom: 28px;
+    max-width: 610px;
+  }
+
+  .intro {
+    margin: 90px auto 88px;
+    max-width: 720px;
+  }
+
+  .intro__title {
+    font-size: 49px;
+    line-height: 53px;
+    max-width: 707px;
+  }
+
+  .intro__quote {
+    max-width: 729px;
+    margin-top: 45px;
+  }
+
+  .intro__quote-author {
+    max-width: 729px;
+    margin: 5px;
+  }
+
+  .footer {
+    margin: 90px auto 24px;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
   .logo__image {
     margin-top: 30px;
@@ -124,7 +163,6 @@ body {
   .lead__title {
     font-size: 75px;
     line-height: 79px;
-    text-align: center;
     margin-bottom: 25px;
     max-width: 530px;
   }
@@ -165,6 +203,49 @@ body {
 
   .footer {
     margin: 88px auto 24px;
+  }
+
+}
+
+@media screen and (max-width: 544px) {
+  .logo__image {
+    margin-top: 25px;
+  }
+
+  .lead__title {
+    font-size: 60px;
+    line-height: 61px;
+    margin-bottom: 20px;
+    max-width: 379px;
+  }
+
+  .lead__subtitle {
+    margin-bottom: 35px;
+    font-size: 23px;
+    max-width: 504px;
+  }
+
+  .intro {
+    margin: 90px auto 88px;
+    max-width: 504px;
+  }
+
+  .intro__title {
+    font-size: 37px;
+    line-height: 42px;
+  }
+
+  .intro__quote {
+    line-height: 32px;
+    margin-top: 45px;
+  }
+
+  .intro__quote-author {
+    margin: 5px;
+  }
+
+  .footer {
+    margin: 76px auto 24px;
   }
 
 }
@@ -211,7 +292,6 @@ body {
   }
 
   .intro__quote-author {
-    line-height: 34px;
     margin-top: 10px;
   }
 
