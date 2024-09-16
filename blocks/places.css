@@ -1,11 +1,11 @@
 .places {
   max-width: 984px;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .place {
   width: 100%;
-  margin: 0 auto 80;
+  margin: 0 auto 80px;
   display: grid;
   grid-template-areas:
   "title author"
@@ -110,4 +110,8 @@
 
 .place__content-paragraph:nth-child(1){
   margin-bottom: 25px;
+}
+
+.place__content-paragraph:nth-child(3){
+  margin-top: 25px;
 }
