@@ -39,7 +39,7 @@
 
 .place__button {
   grid-area: button;
-  width: 356.08px;
+  width: 360px;
   height: 48px;
   padding: 13px 20px 13px 20px;
   gap: 10px;
@@ -67,14 +67,30 @@
 
 .place__website {
   grid-area: author;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .place__website_url-heading {
-
+  max-width: 85.17px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #AAAAAA;
 }
 
 .place__website_artist {
-
+  max-width: 455.53px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #FFFFFF;
 }
 
 .place__content {
