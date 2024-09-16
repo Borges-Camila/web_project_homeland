@@ -1,7 +1,50 @@
 .places {
-
+  max-width: 984px;
 }
 
 .place {
+  width: 100%;
+  margin: 0 auto 80;
+  display: grid;
+  grid-template-areas:
+  "title author"
+  "img text"
+  "button text";
+  list-style-type: none;
+
+}
+
+.place__image {
+
+}
+
+.place__image {
+
+}
+
+.place__button {
+
+}
+
+.place__button-paragraph {
+
+}
+
+.place__website {
+}
+
+.place__website_url-heading {
+
+}
+
+.place__website_artist {
+
+}
+
+.place__content {
+
+}
+
+.place__content-paragraph {
 
 }
