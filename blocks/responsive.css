@@ -37,6 +37,52 @@
     width: 100%;
   }
 
+  .place {
+    margin: 0 auto 76px;
+    column-gap: 34px;
+  }
+
+  .place__title {
+    max-width: 400px;
+    font-size: 57px;
+    line-height: 59px;
+  }
+
+  .place__image {
+    max-width: 420px;
+    min-width: 300px;
+  }
+
+  .place__button {
+    max-width: 355px;
+    margin-top: 48px;
+  }
+
+  .place__button-paragraph {
+    font-size: 1rem;
+  }
+
+  .place__website {
+    max-width: 414px;
+  }
+
+  .place__website_url-heading {
+    max-width: 63px;
+  }
+
+  .place__website_artist {
+    max-width: 414px;
+  }
+
+  .place__content {
+    max-width: 414px;
+  }
+
+  .place__content-paragraph {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
   .footer {
     margin: 90px auto 24px;
   }
@@ -98,6 +144,57 @@
 
   .photo-grid__image {
     max-width: 352px;
+    margin-bottom: 88px;
+  }
+
+  .places {
+    max-width: 720px;
+  }
+
+  .place {
+    margin: 0 auto 72px;
+    column-gap: 28px;
+  }
+
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .place__image {
+    max-width: 340px;
+    min-width: 250px;
+  }
+
+  .place__button {
+    max-width: 355px;
+    margin-top: 48px;
+  }
+
+  .place__button-paragraph {
+    font-size: 1rem;
+  }
+
+  .place__website {
+    max-width: 352px;
+  }
+
+  .place__website_url-heading {
+    max-width: 67px;
+  }
+
+  .place__website_artist {
+    max-width: 352px;
+  }
+
+  .place__content {
+    max-width: 352px;
+  }
+
+  .place__content-paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
   }
 
   .footer {
@@ -148,6 +245,56 @@
     min-width: 200px;
     width: 100%;
   }
+
+  .places {
+    margin: 0 auto;
+  }
+
+    .place {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas:
+        "title"
+        "author"
+        "image"
+        "text"
+        "button";
+      max-width: 540px;
+      min-width: 320px;
+      row-gap: 25px;
+    }
+
+    .place__title {
+      max-width: 540px;
+      font-size: 35px;
+      line-height: 38px;
+      margin: 0 auto;
+    }
+
+    .place__image {
+      max-width: 540px;
+      min-width: 330px;
+      margin: 0 auto;
+    }
+
+    .place__button {
+      margin: 0 auto;
+      max-width: 480px;
+      height: 48px;
+    }
+
+    .place__button-paragraph {
+      font-size: 1rem;
+    }
+
+    .place__website {
+      margin: 0 auto;
+    }
+
+    .place__content {
+      max-width: 450px;
+      min-width: 320px;
+      margin: 0 auto;
+    }
 
   .footer {
     margin: 76px auto 24px;
@@ -210,6 +357,62 @@
 
   .photo-grid__image {
     max-width: 288px;
+  }
+
+.places {
+  margin: 0 auto;
+}
+
+  .place {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "title"
+      "author"
+      "image"
+      "text"
+      "button";
+    max-width: 320px;
+    row-gap: 30px;
+  }
+
+  .place__title {
+    min-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .place__image {
+    max-width: 320px;
+    min-width: 200px;
+    margin: 0 auto;
+  }
+
+  .place__button {
+    margin: 0 auto;
+    min-width: 288px;
+    height: 48px;
+
+  }
+
+  .place__button-paragraph {
+    font-size: 0.80rem;
+  }
+
+  .place__website {
+    max-width: 288px;
+  }
+
+  .place__website_url-heading {
+    max-width: 288px;
+  }
+
+  .place__website_artist {
+    max-width: 288px;
+  }
+
+  .place__content {
+    max-width: 288px;
+    margin: 0 auto;
   }
 
   .footer {
