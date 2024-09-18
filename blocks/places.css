@@ -18,6 +18,10 @@
 .place__title {
   grid-area: title;
   max-width: 460px;
+}
+
+.place__title-item {
+  width: 100%;
   font-family: Inter;
   font-size: 72px;
   font-weight: 900;
@@ -26,13 +30,17 @@
 }
 
 .place__image {
-  grid-area: image;
   max-width: 460px;
+  grid-area: image;
+}
+
+.place__image-item {
+  width: 100%;
   margin-top: 48px;
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 
-.place__image:hover {
+.place__image-item:hover {
   background: #00000080;
   opacity: 50%;
 }
