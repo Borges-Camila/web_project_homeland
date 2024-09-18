@@ -35,10 +35,6 @@
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-box-shadow: 10px 10px 25px 0px #00000080;
-
-
-
 .place__image-item:hover {
   background: #00000080;
   opacity: 50%;
