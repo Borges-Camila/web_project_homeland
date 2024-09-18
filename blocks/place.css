@@ -1,0 +1,122 @@
+.place {
+  width: 100%;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-areas:
+  "title author"
+  "image text"
+  "button text";
+  column-gap: 40px;
+  list-style-type: none;
+}
+
+.place__title {
+  grid-area: title;
+  max-width: 460px;
+}
+
+.place__title-item {
+  width: 100%;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  text-align: left;
+}
+
+.place__image {
+  max-width: 460px;
+  grid-area: image;
+}
+
+.place__image-item {
+  width: 100%;
+  margin-top: 48px;
+  box-shadow: 10px 10px 25px 0px #00000080;
+}
+
+.place__image-item:hover {
+  background: #00000080;
+  opacity: 50%;
+}
+
+.place__button {
+  grid-area: button;
+  max-width: 360px;
+  height: 48px;
+  padding: 13px 20px 13px 20px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+  margin-top: 48px;
+  box-shadow: 5px 5px 10px 0px #00000040;
+}
+
+.place__button:hover {
+  color: #00000080;
+  opacity: 25%;
+}
+
+.place__button-paragraph {
+  max-width: 315px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.place__website {
+  grid-area: author;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.place__website_url-heading {
+  max-width: 85.17px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #AAAAAA;
+}
+
+.place__website_artist {
+  max-width: 455.53px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.place__content {
+  grid-area: text;
+  margin: 48px auto 0;
+  max-width: 484px;
+}
+
+.place__content-paragraph {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.34px;
+  text-align: left;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+.place__content-paragraph:nth-child(1){
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+.place__content-paragraph:nth-child(3){
+  margin-top: 25px;
+}
